@@ -6,13 +6,13 @@
           <div class="uk-navbar-center-left">
             <div>
               <ul class="uk-navbar-nav">
-                  <li class="uk-active"><a href="#">Covid Tracker</a></li>
+                  <li class="uk-active"><a href="/">Covid Tracker</a></li>
                   <li>
                       <a href="#">Menu</a>
                       <div class="uk-navbar-dropdown">
                           <ul class="uk-nav uk-navbar-dropdown-nav">
-                              <li class="uk-active"><a href="#">Countries</a></li>
-                              <li><a href="#">About</a></li>
+                              <li class="uk-active"><a href="/">Countries</a></li>
+                              <li><a href="/about">About</a></li>
                           </ul>
                       </div>
                   </li>
