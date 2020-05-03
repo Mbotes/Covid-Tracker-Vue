@@ -21,18 +21,18 @@
                 <dt>Critical Cases: </dt>
                 <dd>{{COUNTRYDATA.critical || 0 }}</dd>
                 <dt>Cases per 1 million:</dt>
+                <dd>{{COUNTRYDATA.casesPerOneMillion || 0 }}</dd>
+                <dt>Deaths per 1 million:</dt>
                 <dd>{{COUNTRYDATA.deathsPerOneMillion || 0 }}</dd>
             </dl>
         </div>
     </div>
 </template>
-
 <script>
 import { mapGetters } from "vuex";
 export default {
   data() {
     return {
-      search: "",
       loading: false
     };
   },

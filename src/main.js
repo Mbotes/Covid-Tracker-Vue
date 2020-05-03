@@ -5,6 +5,11 @@ import store from "./store";
 import uk from "uikit";
 import Icons from "uikit/dist/js/uikit-icons";
 import moment from 'moment'
+import Chartkick from 'vue-chartkick'
+import Chart from 'chart.js'
+
+Vue.use(Chartkick.use(Chart))
+Chartkick.configure({mapsApiKey: "AIzaSyA4gHckN5WlUWWHZaZLQBv1xQCwSPsZqYE"})
 
 Vue.prototype.moment = moment
 uk.use(Icons);

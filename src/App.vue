@@ -12,6 +12,7 @@
                       <div class="uk-navbar-dropdown">
                           <ul class="uk-nav uk-navbar-dropdown-nav">
                               <li class="uk-active"><a href="/">Countries</a></li>
+                              <li><a href="/map">Map</a></li>
                               <li><a href="/about">About</a></li>
                           </ul>
                       </div>
@@ -27,6 +28,7 @@
     <router-view />
   </div>
 </template>
+
 <script>
 export default {};
 </script>
