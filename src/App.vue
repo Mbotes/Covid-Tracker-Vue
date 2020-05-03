@@ -21,7 +21,6 @@
           </div>
           <a class="uk-navbar-item uk-logo" href="#">Logo</a>
           <div class="uk-navbar-center-right">
-          
           </div>
       </div>
     </nav>

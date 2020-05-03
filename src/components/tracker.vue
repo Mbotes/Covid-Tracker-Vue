@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <div class="uk-container uk-margin-top">
+      <div class="uk-container uk-margin	">
         <div>
           <div class="uk-background-secondary uk-margin-bottom uk-padding uk-panel">
             <div class="uk-margin">
@@ -32,6 +32,11 @@
           </div>
           <div></div>
         </div>
+        <p>
+          This site is powered by
+          <a href="https://github.com/javieraviles/covidAPI">github.com/javieraviles/covidAPI</a> with
+          <span uk-icon="heart"></span>
+        </p>
       </div>
     </section>
   </div>
