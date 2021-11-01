@@ -5,7 +5,7 @@ const state = {
 };
 
 const getters = {
-    COUNTRYDATA : state => {
+    COUNTRYDATA: state => {
         return state.countryData;
     },
 };
@@ -14,22 +14,22 @@ const mutations = {
     SET_COUNTRY(state, payload) {
         state.countryData = payload;
     }
-  
+
 };
 
 const actions = {
-    async getCountry({commit}, name) {
+    async getCountry({ commit }, name) {
         try {
             console.log("route", name);
             let response = await axios.get(`https://coronavirus-19-api.herokuapp.com/countries/${name}`);
             console.log(response.data);
             commit("SET_COUNTRY", response.data);
         } catch (err) {
-          console.log(err);
+            console.log(err);
         }
-      }
+    }
 };
 
 export default {
-  state,getters,mutations,actions
+    state, getters, mutations, actions
 }
